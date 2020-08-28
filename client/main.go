@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	pb "day3/server/proto/consignment"
+	pb "day3/proto/consignment"
 	"encoding/json"
 	"google.golang.org/grpc"
 	"io/ioutil"

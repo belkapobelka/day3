@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	pb "day3/server/proto/consignment"
+	pb "day3/proto/consignment"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 	"log"
