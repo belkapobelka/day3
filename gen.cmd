@@ -1,1 +1,1 @@
- protoc -I . --go_out=plugins=grpc:. ./proto/consignment/consignment.proto
+ protoc -I . --go_out=plugins=grpc:. --micro_out=. proto/consignment/consignment.proto
